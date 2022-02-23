@@ -11,13 +11,13 @@ document.querySelector(".btn").addEventListener("click", function (e) {
   // console.log(typeof sgpa);
 
   if (!sgpa) {
-    alert("There is no Input😡");
+    alert("There is no Input�");
   } else {
     let ans = sgpa * number;
     ans = ans.toFixed(2);
     // console.log(ans);
     document.querySelector(
       ".ans"
-    ).textContent = `Your Percentage is ${ans}% 🙌`;
+    ).textContent = `Your Percentage is ${ans}% �`;
   }
 });
